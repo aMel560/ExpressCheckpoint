@@ -1,0 +1,78 @@
+#Home {
+  background-image: url(./Images/Group\ 1000002045.png);
+  height: 100vh;
+}
+nav ul {
+  color: black;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+#div1 {
+  color: var(--fffffff, #fff);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#div1 h1 {
+  color: var(--Primary-coffee, #bc9a6c);
+  font-family: Andada Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68px; /* 113.333% */
+}
+form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 60px;
+}
+#bouton1 div {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+#bouton2 div {
+  color: var(--Primary-coffee, #bc9a6c);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+#principale1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+#bouton1 {
+  background-color: #bc9a6c;
+  width: 190px;
+  height: 60px;
+  flex-shrink: 0;
+}
+#bouton2 {
+  width: 190px;
+  height: 60px;
+  flex-shrink: 0;
+}
+#principale1 img {
+  width: 536px;
+  height: 596px;
+  display: flex;
+}
